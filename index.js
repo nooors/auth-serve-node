@@ -1,7 +1,7 @@
 const express = require("express");
 const cors = require("cors");
-// use envoirement variables
 
+// use envoirement variables
 require("dotenv").config();
 
 // Create express server/app
