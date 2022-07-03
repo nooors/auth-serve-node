@@ -1,0 +1,11 @@
+{
+  "name": "auth-serve-node",
+  "version": "1.0.0",
+  "description": "node backend server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jose Nortes",
+  "license": "ISC"
+}
