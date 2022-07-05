@@ -7,6 +7,9 @@ require("dotenv").config();
 // Create express server/app
 const app = express();
 
+// Public directory --> entry point of a web
+app.use(express.static("public"));
+
 // CORS really is another middleware
 app.use(cors());
 
