@@ -1,0 +1,59 @@
+[
+  {
+    "_id": "7ffa94e6-d39a-463d-ae64-4738cd015d2f",
+    "colId": "5ab4f718-c486-4b15-8fd9-48ef680ff56e",
+    "containerId": "",
+    "name": "register",
+    "url": "localhost:4000/api/auth/register",
+    "method": "POST",
+    "sortNum": 20000,
+    "created": "2022-07-07T09:06:07.430Z",
+    "modified": "2022-07-07T09:40:17.633Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n    \"name\": \"Adolfo 3\",\n    \"email\": \"adolfo3@adolfo.com\",\n    \"password\": \"123456\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "b7a88474-7185-43db-be2e-95623fa8f988",
+    "colId": "5ab4f718-c486-4b15-8fd9-48ef680ff56e",
+    "containerId": "",
+    "name": "Login",
+    "url": "localhost:4000/api/auth/login",
+    "method": "POST",
+    "sortNum": 30000,
+    "created": "2022-07-07T10:30:06.761Z",
+    "modified": "2022-07-07T10:32:23.902Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n    \"email\": \"adolfo3@adolfo.com\",\n    \"password\": \"123456\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "31037179-e3c0-4519-8d8a-4ce87f134a49",
+    "colId": "5ab4f718-c486-4b15-8fd9-48ef680ff56e",
+    "containerId": "",
+    "name": "Renew Token",
+    "url": "localhost:4000/api/auth/renew",
+    "method": "GET",
+    "sortNum": 40000,
+    "created": "2022-07-07T10:41:42.303Z",
+    "modified": "2022-07-07T10:43:52.790Z",
+    "headers": [
+      {
+        "name": "x-token",
+        "value": "adkjpeirjanmasdf"
+      }
+    ],
+    "params": [],
+    "tests": []
+  }
+]

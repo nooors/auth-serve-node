@@ -11,8 +11,8 @@ router.post( "/register", [
     check( 'name', 'Name has to have at least 2 characters' ).isLength( 6 ),
     check( 'email', 'email is required' ).exists(),
     check( 'email', 'email has to have proper format' ).normalizeEmail().isEmail(),
-    check( 'passwd', 'select a password' ).exists(),
-    check( 'passwd', 'Password has to have at lest 6 characters' ).trim().isLength( 6 ),
+    check( 'password', 'select a password' ).exists(),
+    check( 'password', 'Password has to have at lest 6 characters' ).trim().isLength( 6 ),
     fieldValidator
 
 ], register );
@@ -20,7 +20,7 @@ router.post( "/register", [
 // User login -->( path, middelwares, controller)
 router.post( "/login", [
     check( 'email', 'Email field is required' ).isEmail(),
-    check( 'passw', 'Password is obviosly required' ).isLength( 6 ),
+    check( 'password', 'Password is obviosly required' ).isLength( 6 ),
     fieldValidator
 ], login );
 
