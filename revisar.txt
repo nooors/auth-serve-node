@@ -1,0 +1,2 @@
+-meyWY_P8Sux5Vr
+mongodb+srv://nooors:<password>@herocluster.4wx0i.mongodb.net/test
