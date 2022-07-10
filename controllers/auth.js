@@ -4,7 +4,7 @@ const bcrypt = require("bcryptjs");
 const { generateJWT } = require("../helpers/jwt");
 
 const register = async (req = request, res = response) => {
-  const { email, name, password } = req.body;
+  const { name, email, password } = req.body;
 
   try {
     // Verify email
@@ -76,6 +76,7 @@ const login = async (req = request, res = response) => {
       ok: true,
       uid: dbUser.id,
       name: dbUser.name,
+      email: email,
       token,
     });
   } catch (error) {
@@ -98,6 +99,7 @@ const renew = async (req = request, res = response) => {
     ok: true,
     uid,
     name: dbUser.name,
+    email: dbUser.email,
     msg: "Renew token",
     token,
   });
