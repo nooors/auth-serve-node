@@ -17,5 +17,62 @@
       "form": []
     },
     "tests": []
+  },
+  {
+    "_id": "31acf809-82a1-4740-8bae-04885ceb89a7",
+    "colId": "history",
+    "containerId": "",
+    "name": "https://angular-node-back-front-auth.herokuapp.com/auth/",
+    "url": "https://angular-node-back-front-auth.herokuapp.com/auth/",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2022-07-11T09:25:30.412Z",
+    "modified": "2022-07-11T09:25:30.855Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n\"email\": \"adolfo1@adolfo.com\",\n\"password\": \"123456\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "8643799b-575a-40f9-878e-60d0dae89f01",
+    "colId": "history",
+    "containerId": "",
+    "name": "https://angular-node-back-front-auth.herokuapp.com/auth/",
+    "url": "https://angular-node-back-front-auth.herokuapp.com/auth/",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2022-07-11T09:27:01.223Z",
+    "modified": "2022-07-11T10:02:16.570Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n\"email\": \"adolfo1@adolfo.com\",\n\"password\": \"123456\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "55e982ea-4c0e-499c-87a5-dae560d2a89d",
+    "colId": "history",
+    "containerId": "",
+    "name": "https://angular-node-back-front-auth.herokuapp.com/auth/login",
+    "url": "https://angular-node-back-front-auth.herokuapp.com/auth/login",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2022-07-11T10:02:24.153Z",
+    "modified": "2022-07-11T10:02:24.395Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n\"email\": \"adolfo1@adolfo.com\",\n\"password\": \"123456\"\n}",
+      "form": []
+    },
+    "tests": []
   }
 ]
